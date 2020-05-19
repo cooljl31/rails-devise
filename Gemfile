@@ -1,39 +1,39 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
-gem 'jquery-rails'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+gem 'jquery-rails', '>= 4.2.1'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.6', '>= 2.6.4'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 3.3.1'
   gem 'listen', '~> 3.0.5'
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring', '>= 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.1'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
-gem 'devise'
+gem 'devise', '>= 4.4.2'
 gem 'high_voltage'
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.1.1'
   gem 'rails_layout'
-  gem 'spring-commands-rspec'
+  gem 'spring-commands-rspec', '>= 1.0.4'
 end
 group :development, :test do
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.7.0'
   gem 'faker'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.5.2'
 end
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>= 2.10.1'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
